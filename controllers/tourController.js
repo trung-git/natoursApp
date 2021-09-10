@@ -31,7 +31,7 @@ module.exports.resizeTourImage = async (req, res, next) => {
   if (!req.files) {
     return next();
   }
-  console.log(req.files);
+  // console.log(req.files);
   req.body.imageCover = `tour-${req.params.id}-${Date.now()}-cover.jpeg`;
   await sharp(req.files.imageCover[0].buffer)
     .resize(2000, 1333)

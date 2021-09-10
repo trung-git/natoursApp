@@ -4,7 +4,7 @@ export const login = async (email, password) => {
   try {
     const res = await axios({
       method: 'POST',
-      url: 'http://localhost:3001/api/v1/user/login',
+      url: '/api/v1/user/login',
       data: {
         email,
         password,
@@ -25,7 +25,7 @@ export const logout = async () => {
   try {
     const res = await axios({
       method: 'GET',
-      url: 'http://localhost:3001/api/v1/user/logout',
+      url: '/api/v1/user/logout',
     });
 
     if (res.data.status === 'success') {

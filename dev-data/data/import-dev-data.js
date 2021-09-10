@@ -10,7 +10,7 @@ const User = require('./../../models/userModel');
 //   process.env.DATABASE_PASSWORD
 // );
 const DB_URL = process.env.DB_LOCAL;
-console.log(DB_URL);
+// console.log(DB_URL);
 mongoose
   .connect(DB_URL, {
     useNewUrlParser: true,
