@@ -9,7 +9,7 @@ const User = require('./../../models/userModel');
 //   '<PASSWORD>',
 //   process.env.DATABASE_PASSWORD
 // );
-const DB_URL = process.env.DB_LOCAL;
+const DB_URL = process.env.DB_MONGO;
 // console.log(DB_URL);
 mongoose
   .connect(DB_URL, {

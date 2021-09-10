@@ -9,7 +9,7 @@ process.on('uncaughtException', (err) => {
   process.exit(1);
 });
 //Variables ENV
-const DB_URL = process.env.DB_LOCAL;
+const DB_URL = process.env.DB_MONGO;
 const PORT = process.env.PORT || 3000;
 
 //MongoDB connection
@@ -30,6 +30,6 @@ mongoose
 process.on('unhandledRejection', (err) => {
   console.log('UNHANDLED REJECTION! 💥 Shutting down...');
   console.log(err.name, err.message);
-  
+
   process.exit(1);
 });
