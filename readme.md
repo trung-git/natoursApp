@@ -14,8 +14,8 @@
 - [Main features](#main-features)
 - [Technologies](#technologies)
 - [Demo](#demo)
-- [License](#license)
 - [Author Info](#author-info)
+<!-- - [License](#license) -->
 
 ---
 
@@ -54,6 +54,7 @@ https://natourmie.herokuapp.com/
 
 ---
 
+<!--
 ## License
 
 MIT License
@@ -78,7 +79,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+--- -->
 
 ## Author Info
 
